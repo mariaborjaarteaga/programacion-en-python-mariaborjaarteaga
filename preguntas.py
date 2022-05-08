@@ -278,7 +278,7 @@ def pregunta_08():
     for letra, valor in data_1:
         valor=int(valor)
         if valor in result.keys():
-            print()
+            #print()
             result[valor].append(letra)
         else:
             result[valor]=[letra]
